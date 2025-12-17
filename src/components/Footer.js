@@ -32,18 +32,6 @@ export default function Footer({ playChaching, openModal = () => {} }) {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <Image
-          src="https://raw.githubusercontent.com/fatfellas/fellawebsite/refs/heads/main/launchingsoon.png"
-          alt="Launching Soon"
-          width={160}
-          height={40}
-          className="launching-soon"
-          onClick={() => {
-            playChaching();
-            openModal();
-          }}
-          unoptimized
-        />
         <div className="social-links">
           {socialLinks.map((link, i) => (
             <a

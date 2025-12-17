@@ -25,7 +25,7 @@ export default function Hero({ playChaching, bgVideoRef, bgVideoMobileRef }) {
           className="mobile-video"
         >
           <source
-            src="/trailer.mp4"
+            src="/trailer2.mp4"
             type="video/mp4"
             media="(max-width: 768px)"
           />

@@ -55,7 +55,7 @@ export default function Home() {
       <AudioToggle muted={audioMuted} onToggle={toggleAudio} />
 
       <audio ref={bgAudioRef} loop preload="none">
-        <source src="/trailer.wav" type="audio/wav" />
+        <source src="/ariana.mp3" type="audio/mp3" />
       </audio>
       <audio ref={chachingAudioRef} preload="none">
         <source
